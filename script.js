@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        alert("Sign up successful! 🎉");
+        alert("Sign up successful!");
         
         emailInput.value = "";
         passwordInput.value = "";
     });
 
     signinBtn.addEventListener("click", function () {
-        alert("Thank you for visiting 😊");
+        alert("Thank you for visiting.");
     });
 });
